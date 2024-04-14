@@ -4,7 +4,7 @@
  * @Author: wangxr
  * @Date: 2024-04-14 22:10:32
  * @LastEditors: wangxr
- * @LastEditTime: 2024-04-14 23:10:41
+ * @LastEditTime: 2024-04-14 23:14:36
  */
 class Stack1 {
     
@@ -50,7 +50,7 @@ class Stack1 {
      * 检查是否为空
      */
     isEmpty() {
-        return this.arrayBasedStack.length;
+        return this.arrayBasedStack.length === 0;
     }
 
     /**
